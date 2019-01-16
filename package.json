@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "http-server -o"
+    "dev": "http-server -o",
+    "start": "npm install"
+
   },
   "author": "Jeffrey Alvarado",
   "license": "MIT",
