@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/ios/50/000000/star-of-david.png">
+    <title>Jeffrey Alvarado</title>
+</head>
+<body>
+    <header id="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#about-me">About me</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#tech-skills">Skills</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#contact-info">Contact info</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="cover" class="panel panel--cover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>
+                            Jeffrey Alvarado
+                        </h1>
+                        <h2>
+                            Full Stack Developer
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-me" class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h1>About Me</h1>
+                        <img class="avatar" src="/assets/images/avatar.png" alt="About Me">
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="about-me-section">
+                            <p>
+                                <b>Computer Engineering Student, Freelancer and tech enthusiast.</b>
+                            </p>
+                            <p>
+                                Loves to learn and constantly gathering knowledge. Ability to adopt new technologies with ease, used to self-taught and a great team player!
+                            </p>
+                            <div>
+                                <p class="quote">
+                                    Any sufficiently advanced technology is indistinguishable from magic.
+                                </p>
+                                <p class="author">
+                                    Arthur C. Clarke
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 next-link next-link--dark">
+                        <a href="#education">
+                            <span class="fa fa-chevron-circle-down"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education" class="panel panel--red">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-12">
+                        <h1>Education</h1>
+                        <img class="avatar" src="/assets/images/education.png" alt="Education">
+                    </div>
+
+                    <div class="col-lg-8 col-12 education-section">
+                        <div class="card">
+                            <h2><img src="/assets/images/tec.png" alt=""></h2>
+                            <h3>Computer Engineering</h3>
+                            <h4>2014 - Present</h4>
+                        </div>
+
+                        <div class="card">
+                            <h3>BrainStation</h3>
+                            <h3>Web Development Immersive</h3>
+                            <h4>2019</h4>
+                        </div>
+
+                        <div class="card">
+                            <h3>Liceo Experimental Bilingüe</h3>
+                            <h3>High School</h3>
+                            <h4>2009 - 2013</h4>
+                        </div>
+
+                        <div class="card">
+                            <h3>Universidad Técnica Nacional</h3>
+                            <h3>LibreOffice</h3>
+                            <h4>2013</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 next-link">
+                        <a href="#tech-skills">
+                            <span class="fa fa-chevron-circle-down"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tech-skills" class="panel panel--orange">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Skills</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-12 skills-section">
+                        <span class="fa fa-laptop"></span>
+                        <button onclick="openModal('desktop-modal')">
+                            Desktop
+                        </button>
+                    </div>
+
+                    <div id="desktop-modal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Desktop</h1>
+                                <span class="fa fa-window-close close" onclick="closeModal('desktop-modal')"></span>
+                            </div>                            
+                            <p>
+                                Full desktop applications development using C, C#, C++, Java and Python.
+                            </p>
+                            <img src="https://img.icons8.com/ios/50/c-plus-plus-logo.png" alt="C++">
+                            <img src="https://img.icons8.com/ios/50/c-sharp-logo.png" alt="C#">
+                            <img src="https://img.icons8.com/ios/50/000000/python.png" alt="Python">
+                            <img src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo.png" alt="Java">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-12 skills-section">
+                        <span class="fa fa-chrome"></span>
+                        <button onclick="openModal('web-modal')">Web</button>
+                    </div>
+
+                    <div id="web-modal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Web</h1>
+                                <span class="fa fa-window-close close" onclick="closeModal('web-modal')"></span>
+                            </div>
+                            <p>
+                                Front-end web development with HTML, CSS, Javascript, JQuery, TypeScript and Angular.
+                            </p>
+                            <p>
+                                Back-end web development with NodeJS, PHP, .NET and Java.
+                            </p>
+                            <p>
+                                Web applications development using Wordpress.
+                            </p>
+                            <img src="https://img.icons8.com/ios/50/000000/html-5.png" alt="HTML5">
+                            <img src="https://img.icons8.com/ios/50/000000/css3.png" alt="HTML5">
+                            <img src="https://img.icons8.com/ios/50/000000/javascript.png" alt="HTML5">
+                            <img src="https://img.icons8.com/ios/50/000000/angularjs.png" alt="Angular">
+                            <img src="https://img.icons8.com/ios/50/000000/wordpress-filled.png" alt="Wordpress">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-12 skills-section">
+                        <span class="fa fa-mobile"></span>
+                        <button onclick="openModal('mobile-modal')">Mobile</button>
+                    </div>
+
+                    <div id="mobile-modal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1>Mobile development</h1>
+                                <span class="fa fa-window-close close" onclick="closeModal('mobile-modal')"></span>
+                            </div>
+                            <p>
+                                Native Android development with Java.
+                            </p>
+                            <p>
+                                Cross-platform mobile development with Ionic.
+                            </p>
+                            <img src="https://img.icons8.com/ios/50/000000/android-os.png" alt="Android">
+                            <img src="https://img.icons8.com/ios/50/000000/ios-logo.png" alt="IOS">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 next-link">
+                        <a href="#experience">
+                            <span class="fa fa-chevron-circle-down"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="panel panel--yellow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h1>Experience</h1>
+                        <img class="avatar" src="/assets/images/experience.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-title">
+                                    <h1>IT Designers</h1>
+                                    <h2>June 2016 - June 2017</h2>
+                                </div>                                
+                                <p>
+                                    <b>Intern.</b> Web development using Wordpress, Javascript and PHP.
+                                </p>
+                            </li>
+                            <li>
+                                <div class="timeline-title">
+                                    <h1>L.L. Bean</h1>
+                                    <h2>November 2017 - December 2017</h2>
+                                </div>
+                                <p>
+                                    <b>Seasonal Problem Resolution Level 1.</b> Analysis and decision making of web purchase orders.
+                                </p>
+                            </li>
+                            <li>
+                                <div class="timeline-title">
+                                    <h1>Tecnológico de Costa Rica</h1>
+                                    <h2>February 2018 - June 2018</h2>
+                                </div>
+                                <p>
+                                    <b>Project Assistant.</b> Testing, debugging and development using PHP, Javascript and MySQL.
+                                </p>
+                            </li>
+                            <li>
+                                <div class="timeline-title">
+                                    <h1>Kölbi</h1>
+                                    <h2>October 2018</h2>
+                                </div>
+                                <p>
+                                   <b>Freelancer Web Developer.</b> Development of an internal intelligence portal for the company's innovation area.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 next-link next-link--dark">
+                        <a href="#contact-info">
+                            <span class="fa fa-chevron-circle-down"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact-info" class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Contact info</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-12 contact-section">
+                        <h1>Jeffrey Alvarado</h1>
+                        <h2>Full Stack Developer</h2>
+                        <div>
+                            <span>Phone: <a href="tel:+506-8695-9260">(506) 8695-9260</a></span>
+                        </div>
+                        <div>
+                            <span>Email: jefalva10296@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 contact-section contact-section--left">
+                        <h3>La Trinidad</h3>
+                        <h3>Moravia, San José, 11403</h3>
+                        <h2>Costa Rica</h2>
+                        <hr class="contact-separator">
+                        <div class="contact-icons">
+                            <a href="https://www.facebook.com/jeffrey.alvarado.q12" target="_blank"><span class="fa fa-facebook"></span></a>
+                            <a href="https://twitter.com/jeffrey_a12"><span  target="_blank" class="fa fa-twitter"></span></a>
+                            <a href="https://github.com/jeffreya12" target="_blank"><span class="fa fa-github"></span></a>
+                            <a href="mailto:jefalva10296@gmail.com" target="_blank"><span class="fa fa-envelope"></span></a>
+                            <a href="https://wa.me/50686959260" target="_blank"><span class="fa fa-whatsapp"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2019 By Jeffrey Alvarado
+    </footer>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
